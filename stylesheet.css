@@ -1,0 +1,161 @@
+html, body
+{
+    width: 100%;
+    padding:0;
+    margin:0;
+    margin-top:.5em;
+}
+
+.center{
+	position:relative;
+	margin:auto;left:0;right:0;
+	width:30em;
+	top:13em;
+	text-align:center;
+}
+
+#submission_form {
+	position:relative;
+	width:100%;
+	top:1em;
+	height:3em;
+}
+
+.button {
+	position:relative;
+	width:12em;
+	height:3em;
+	top:3em;
+	text-align:center;
+	border:3px solid transparent;
+	border-radius:3px;
+	color: #666666;
+	font-weight:bold;
+	font-size:.8em;
+}
+
+.button:hover {
+	border: 1px solid #bfbfbf;
+	color: #000000;
+	background-color:#f4f4f4;
+}
+
+.navbar {
+	width:100%;
+	height:4em;
+}
+
+#A_logo {
+	position:relative;
+	border:18px solid #558000;
+	border-radius:100%;
+	width:0;height:0;
+	float:right;
+	right:2em;
+}
+
+#A_logo p {
+	position:relative;
+	color:#ffffff;
+	font-family:Helvetica;
+	width:0;
+	left:-.3em;top:-1.4em;
+}
+
+#bell_logo {
+	position:relative;
+	border:8px solid #666666;
+	border-radius:100%;
+	width:.7em;height:.7em;
+	float:right;
+	top:.3em;
+	right:3em;
+}
+
+#bell_logo p {
+	position:relative;
+	color:#ffffff;
+	font-family:Helvetica;
+	width:0;
+	left:0;top:-1.15em;
+}
+
+#bell_logo:hover{
+	border-color:#000000;
+}
+
+#square{
+	position:relative;
+	border:5px dotted #666666;
+	width:.7em;height:.7em;
+	float:right;
+	top:.5em;
+	right:4em;
+}
+
+#square:hover{
+	border-color:#000000;
+}
+
+.nav_text {
+	float:right;
+	position:relative;
+	font-family:Helvetica;
+	font-size:.8em;
+	color:#666666;
+	top:1em;
+	right:4.5em;
+}
+
+.nav_text a{
+	position:relative;
+	right:.5em;
+	padding-right:1em;
+}
+
+.links {
+	text-decoration: none;
+	color:#666666;
+}
+
+.links:hover {
+	text-decoration: underline;
+}
+
+.footer {
+	position:absolute;
+	bottom:0;
+	width:100%;
+	height:3em;
+	background:#f4f4f4;
+}
+
+.l_footer {
+	float:left;
+	position:relative;
+	font-family:Helvetica;
+	font-size:.8em;
+	color:#666666;
+	top:1.5em;
+	left:2.5em;
+	clear:both;
+	display:block;
+}
+
+.r_footer {
+	float:right;
+	position:relative;
+	font-family:Helvetica;
+	font-size:.8em;
+	color:#666666;
+	top:1.5em;
+	right:2.5em;
+	display:block;
+}
+
+.footer a{
+	position:relative;
+	right:.5em;
+	padding-right:1.5em;
+	border:#707070;
+}
